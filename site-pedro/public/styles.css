@@ -193,6 +193,9 @@ h2 {
     justify-content: space-evenly;
     width: 90%;
 }
+
+/* <-------------------------- CARD 1 --------------------------> */
+
 .card {
     height: 300px;
     width: 400px;
@@ -215,6 +218,7 @@ h2 {
     font-family: sans-serif;
     letter-spacing: 1px;
 }
+
 .card-wrapper {
     text-align: center;
     display: flex;
@@ -267,6 +271,164 @@ h2 {
     width: 350px;
     height: 250px;
 }
+
+/* <-------------------------- CARD 2 --------------------------> */
+
+.card2 {
+    height: 300px;
+    width: 400px;
+    margin: 3rem 0 0;
+    background-image: url(./landscape.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(0.2);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card-text2 {
+    color: rgb(109, 109, 109);
+    width: 40%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.card-wrapper2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-wrapper2::before {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: block;
+    border: 1px solid #ffffff;
+    opacity: 0;
+    transition: 0.3s;
+}
+.card-wrapper2 h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.3s;
+}
+.card-wrapper2 a {
+    color: white;
+    font-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.card2:hover .card-wrapper2 h2 {
+    font-size: 3rem;
+}
+.card2:hover .card-wrapper2 a {
+    visibility: visible;
+    opacity: 1;
+    font-size: 1rem;
+    z-index: 1;
+}
+.card2:hover .card-wrapper2 a:hover {
+    text-decoration: underline;
+}
+.card2:hover > .card-wrapper2::before {
+    opacity: 1;
+    width: 350px;
+    height: 250px;
+}
+
+/* <-------------------------- CARD 3 --------------------------> */
+
+.card3 {
+    height: 300px;
+    width: 400px;
+    margin: 3rem 0 0;
+    background-image: url(./landscape.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(0.2);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card-text3 {
+    color: rgb(109, 109, 109);
+    width: 40%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.card-wrapper3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-wrapper3::before {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: block;
+    border: 1px solid #ffffff;
+    opacity: 0;
+    transition: 0.3s;
+}
+.card-wrapper3 h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.3s;
+}
+.card-wrapper3 a {
+    color: white;
+    font-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.card3:hover .card-wrapper3 h2 {
+    font-size: 3rem;
+}
+.card3:hover .card-wrapper3 a {
+    visibility: visible;
+    opacity: 1;
+    font-size: 1rem;
+    z-index: 1;
+}
+.card3:hover .card-wrapper3 a:hover {
+    text-decoration: underline;
+}
+.card3:hover > .card-wrapper3::before {
+    opacity: 1;
+    width: 350px;
+    height: 250px;
+}
+
+
 
 /* Footer */
 
