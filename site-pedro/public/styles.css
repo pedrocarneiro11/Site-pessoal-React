@@ -12,7 +12,7 @@ body {
 .header-wrapper {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(-45deg, #000805, #047449, #06a166, #06cf82);
+    background: linear-gradient(-45deg, #000805, #031866, #002665, #005c99);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
@@ -200,7 +200,7 @@ h2 {
     height: 300px;
     width: 400px;
     margin: 3rem 0 0;
-    background-image: url(./landscape.png);
+    background-image: url(./img/tech2.jpg); /* ./landscape.png */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -278,7 +278,7 @@ h2 {
     height: 300px;
     width: 400px;
     margin: 3rem 0 0;
-    background-image: url(./landscape.png);
+    background-image: url(./img/Link.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -356,7 +356,7 @@ h2 {
     height: 300px;
     width: 400px;
     margin: 3rem 0 0;
-    background-image: url(./landscape.png);
+    background-image: url(./img/tech3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -438,7 +438,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #06a166;
+    background-color: #005c99;
 }
 
 /* Responsivo */
