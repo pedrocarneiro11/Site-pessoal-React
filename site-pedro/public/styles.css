@@ -429,8 +429,6 @@ h2 {
     height: 250px;
 }
 
-
-
 /* Footer */
 
 .footer {
@@ -445,6 +443,9 @@ h2 {
 /* Responsivo */
 
 @media (max-width: 800px) {
+    .menu{
+        height: 100%;
+    }
     .social-media {
         display: flex;
         flex-direction: column;
