@@ -429,7 +429,80 @@ h2 {
     height: 250px;
 }
 
-/* Footer */
+/* DIV PROJETOS  A FAZER
+
+.projetos {
+    height: 70vh;
+    text-decoration: none;
+    background-color: #00008b;
+    color: #ffffff;
+    text-align: center;
+}
+
+@-webkit-keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%,0,0);
+        transform: translate3d(-100%,0,0);
+        visibility:visible;
+        }
+
+        to {
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+            }
+        }
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%,0,0);
+        transform: translate3d(-100%,0,0);
+        visibility:visible;
+        }
+        to {
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+            }
+}
+
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    }
+    @-webkit-keyframes slideInRight {
+        from {
+            -webkit-transform: translate3d(100%,0,0);
+            transform: translate3d(100%,0,0);
+            visibility:visible;
+            }
+        to {
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+            }
+}
+@keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%,0,0);
+        transform: translate3d(100%,0,0);
+        visibility:visible;
+        }
+    to {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        }
+}
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    }
+.animated {
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+    } 
+*/
+
+/* <------------------ Footer ------------------>*/
 
 .footer {
     height: 100px;
@@ -440,7 +513,7 @@ h2 {
     background-color: #005c99;
 }
 
-/* Responsivo */
+/* <------------------ Responsivo ------------------>*/
 
 @media (max-width: 800px) {
     .menu{
