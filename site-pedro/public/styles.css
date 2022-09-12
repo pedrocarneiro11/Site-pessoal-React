@@ -531,7 +531,7 @@ h2 {
 /* <------------------ Footer ------------------>*/
 
 .footer {
-    height: 100px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -540,6 +540,32 @@ h2 {
 }
 
 /* <------------------ Responsivo ------------------>*/
+
+@media (max-width: 321px) {
+    .titulo-nav {
+        size: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+    .titulo-nav {
+        height: 16vh;
+        top: -39px;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        width: 100%;
+        align-items: center;
+        
+    }
+    
+}
+
+@media (max-width: 426px) {
+    .titulo-nav {
+        font-size: 48px;
+    }
+}
 
 @media (max-width: 800px) {
     .menu{
@@ -602,13 +628,3 @@ h2 {
     }
 
 }
-
-
-/*
-transition: .1s cubic-bezier(0.55, 0.025, 0.675, 0.97);
-}
-.titulo-nav:hover {
-    color: #00008b;
-    background-color: #ffffff;
-}
-*/
