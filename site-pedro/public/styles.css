@@ -505,7 +505,7 @@ h2 {
 /* HOVER DOS BOTOES DOS SLIDERS */
 .slider-button-arrow-previous:hover {
     background-color: white;
-    color: black;
+    color: #28367f;
     animation: background transition 8s;
     transition: .3s cubic-bezier(0.55, 0.025, 0.675, 0.97);
 }
@@ -525,7 +525,7 @@ h2 {
     background-color: white;
     animation: background transition 8s;
     transition: .3s cubic-bezier(0.55, 0.025, 0.675, 0.97);
-    color: black;
+    color: #28367f;
 }
 
 /* <------------------ Footer ------------------>*/
@@ -555,8 +555,22 @@ h2 {
         flex-direction: column;
         font-size: 15px;
         width: 100%;
+        align-items: center;        
+    }
+    .mySlides1 {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        
+        justify-content: center;
+        width: 350px;    
+    }
+
+    .mySlides2 {
+        z-index: -1;
+    }
+
+    .mySlides3 {
+        z-index: -1;
     }
     
 }
@@ -564,6 +578,37 @@ h2 {
 @media (max-width: 426px) {
     .titulo-nav {
         font-size: 48px;
+    }
+    .slides {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position:absolute;
+        justify-content: center;
+
+    }
+    .mySlides1 {
+        position: relative;
+        left: 40px;
+        width: 200px;
+    }
+
+    .mySlides2 {
+        position:absolute;
+        right: 281px;
+        width: 200px;        
+    }
+
+    .mySlides3 {
+        z-index: -1;
+        width: 0px;
+    }
+
+    .slider-button-arrow-previous {
+        width: 40px;
+    }
+    .slider-button-arrow-next {
+        width: 40px;
     }
 }
 
