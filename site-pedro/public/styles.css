@@ -454,6 +454,37 @@ h2 {
     position: relative;
 }
 
+.Slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:90vw;
+}
+
+.mySlides1 {
+    position: absolute;    
+    left: 4vw;
+    top: 10vh;
+    height: 40vh;
+    width: 33%;
+}
+
+.mySlides2 {
+    position: absolute;    
+    left: calc(4vw + 33%);
+    top: 10vh;
+    height: 40vh;
+    width: 34%;
+}
+
+.mySlides3 {
+    position: absolute;    
+    left: calc(1.3vw + 70%);
+    top: 10vh;
+    height: 40vh;
+    width: 34%;
+}
+
 .slider-nav-content {
     position: absolute;
     top:10vh;  
@@ -462,6 +493,7 @@ h2 {
 
 .slider-button-arrow-previous {
     position: absolute;
+    top: 10vh;
     left: 0;
     height : 40vh;
     width: 4vw;
@@ -480,6 +512,7 @@ h2 {
 
 .slider-button-arrow-next {
     position: absolute;
+    top: 10vh;
     right: 0;
     height : 40vh;
     width: 4vw;
@@ -547,6 +580,27 @@ h2 {
         height: 190px;
         width: 190px;
     }
+    .slider-nav {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1444px) {
+    .slides {
+        width: 1444px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .slider-nav {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 
